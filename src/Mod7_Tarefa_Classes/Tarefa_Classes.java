@@ -10,7 +10,7 @@ public class Tarefa_Classes {
      */
     private int CPF;
     private String Nome;
-    private String Endereço;
+    private String Endereco;
 
     /** Criação de métodos Get e Set (Getter and Setter)
      * Cada variável recebe dois métodos, um get e outro set.
@@ -32,12 +32,12 @@ public class Tarefa_Classes {
         Nome = nome;
     }
 
-    public String getEndereço() {
-        return Endereço;
+    public String getEndereco() {
+        return Endereco;
     }
 
-    public void setEndereço(String endereço) {
-        Endereço = endereço;
+    public void setEndereco(String endereco) {
+        Endereco = endereco;
     }
 }
 
