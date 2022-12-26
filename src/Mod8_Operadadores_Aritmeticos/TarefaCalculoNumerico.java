@@ -13,18 +13,19 @@ public class TarefaCalculoNumerico {
     }
 
     /**
-     * Os números usados foram todos do tipo inteiro (int), não sendo necessário utilizar variáveis como a do tipo long.
+     * Os números usados foram todos do tipo ponto flutuante (double), não sendo necessário utilizar variáveis como a do tipo long.
+     * A escolha se deu porque com o uso do tipo inteiro o resultado não traria precisão no resultado.
      */
     private static void calculoNumerico(){
-        int nota1=7;
-        int nota2=6;
-        int nota3=9;
-        int nota4=5;
+        double nota1=7;
+        double nota2=6;
+        double nota3=9;
+        double nota4=5;
 
         /** Criação de uma variável, mediaNotas, que guarde o valor resultante do cálculo.
          * As notas dentro do parêntese seram executadas antes, questão de ordem, e após a soma das mesmas a divisão será iniciada.
           */
-        int mediaNotas= (nota1 + nota2 + nota3 + nota4) / 4;
+        double mediaNotas= (nota1 + nota2 + nota3 + nota4) / 4;
         System.out.println("Média das notas: "+mediaNotas);
 
 
