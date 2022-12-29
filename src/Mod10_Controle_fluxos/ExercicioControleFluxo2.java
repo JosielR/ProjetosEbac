@@ -1,4 +1,8 @@
 package Mod10_Controle_fluxos;
+/**
+ * @author Josiel Rocha
+ * Exercício referente ao módulo 10. Média aritmética de 4 notas e resposta da situação do aluno diante da média obtida.
+ */
 
 import java.util.Scanner;
 
