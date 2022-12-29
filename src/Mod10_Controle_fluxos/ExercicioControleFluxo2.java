@@ -26,7 +26,7 @@ public class ExercicioControleFluxo2 {
         System.out.println("Média das notas: " + mediaNotas);
         if (mediaNotas >= 7) {
             System.out.println("Você está aprovado.");
-        }else if (mediaNotas >= 5 && mediaNotas <= 6) {
+        }else if (mediaNotas >= 5 && mediaNotas < 7) {
             System.out.println("Você está de recuperação.");
         }else{
             System.out.println("Você está reprovado.");}
