@@ -1,5 +1,6 @@
 package Mod14_CRUD;
 
+
 import java.util.Objects;
 
 /**
@@ -17,12 +18,12 @@ public class Cliente {
 
     //Os construtores são métodos especiais em uma classe que são usados para criar e inicializar objetos dessa classe.
     // Eles são usados para definir os valores iniciais dos atributos de um objeto quando ele é instanciado.
-    public Cliente(String nome, Long cpf, Long telefone, String endereco, Integer numero, String cidade, String estado) {
+    public Cliente(String nome, String cpf, String telefone, String endereco, String numero, String cidade, String estado) {
         this.nome = nome;
-        this.cpf = cpf;
-        this.telefone = telefone;
+        this.cpf = Long.valueOf(cpf);
+        this.telefone = Long.valueOf(telefone);
         this.endereco = endereco;
-        this.numero = numero;
+        this.numero = Integer.valueOf(numero);
         this.cidade = cidade;
         this.estado = estado;
     }
